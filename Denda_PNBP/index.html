@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- <title>Responsive Navbar | CodingNepal</title> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <script src="denda.js"></script>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><img src="logo.png" alt="logo"></img></label>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="https://www.simponi.kemenkeu.go.id/welcome/login">SIMPONI</a></li>
+        <li><a href="http://disnavsurabaya.com">PNBP DISNAV</a></li>
+        <li><a href="https://jdih.dephub.go.id/assets/uudocs/pEI/2016/PERDIRJEN_NOMOR_HK_103-2-14-DJPL-16_TENTANG_TATA_CARA_PENERIMAAN,_PENYETORAN,_PENGGUNAAN_DAN_PELPORAN_PNBP_YANG_BERLAKU_PADA_DITJEN_HUBLA.pdf">DASAR HUKUM</a></li>
+      </ul>
+    </nav>
+    <section></br><h3 class="kotak_judul"><center>System Perhitungan Denda PNBP Jasa Kenavigasian</center></h3>
+        <div class="kotak_login">
+        <form name="hitung">
+            <input type="text" name="tgihan" class="form_login" placeholder="Masukkan Tagihan .."></br></br>
+            <table>
+                <tr>
+                    <td>Hangus Ke -</td>
+                    <td><input width="30%" type="text" name="hangus" class="form_login" placeholder="Hangus Ke - .."></td>
+                </tr>
+            </table></br></br>
+            <input type="button" class="tombol_login" onclick="tagihan()" value="Hitung">
+            <br/>
+            <br/>
+            <table>
+                <tr>
+                    <td><h1>Denda </h1></td>
+                    <td><input type = "text" name="hasil" class="link"></input></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="footer">
+        <p>Meneng Radio</p>
+      </div>
+      </section>
+  </body>
+</html>
